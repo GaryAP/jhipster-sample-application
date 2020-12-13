@@ -2,10 +2,10 @@
   "generator-jhipster": {
     "applicationType": "monolith",
     "gitCompany": "",
-    "baseName": "jhipsterSampleApplication",
+    "baseName": "jhipster",
     "packageName": "com.mycompany.myapp",
     "packageFolder": "com/mycompany/myapp",
-    "serverPort": 8080,
+    "serverPort": "8080",
     "serviceDiscoveryType": false,
     "authenticationType": "jwt",
     "uaaBaseName": "../uaa",
@@ -24,7 +24,7 @@
     "testFrameworks": [],
     "enableTranslation": true,
     "nativeLanguage": "en",
-    "languages": ["en"],
+    "languages": ["en", "fr"],
     "clientFramework": "angularX",
     "jhiPrefix": "jhi",
     "jhipsterVersion": "6.10.5",
@@ -36,9 +36,14 @@
     "dtoSuffix": "DTO",
     "otherModules": [],
     "blueprints": [],
-    "prettierJava": true
+    "prettierJava": true,
+    "skipUserManagement": false,
+    "skipClient": false,
+    "skipServer": false,
+    "clientThemeVariant": ""
   },
   "git-provider": "GitHub",
   "git-company": "GaryAP",
-  "repository-name": "jhipster-sample-application"
+  "repository-name": "jhipster-sample-application",
+  "entities": ["Resident", "Room", "Facility"]
 }
