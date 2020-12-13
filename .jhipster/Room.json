@@ -1,0 +1,32 @@
+{
+  "name": "Room",
+  "fields": [
+    {
+      "fieldName": "roomNumber",
+      "fieldType": "Integer",
+      "fieldValidateRules": [
+        "required"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "facility",
+      "otherEntityRelationshipName": "room",
+      "relationshipName": "facility",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20201213205609",
+  "entityTableName": "room",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

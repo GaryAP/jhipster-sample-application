@@ -1,0 +1,25 @@
+{
+  "jhipsterSampleApplicationApp": {
+    "resident": {
+      "home": {
+        "title": "Residents",
+        "createLabel": "Create a new Resident",
+        "createOrEditLabel": "Create or edit a Resident",
+        "notFound": "No Residents found"
+      },
+      "created": "A new Resident is created with identifier {{ param }}",
+      "updated": "A Resident is updated with identifier {{ param }}",
+      "deleted": "A Resident is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Resident {{ id }}?"
+      },
+      "detail": {
+        "title": "Resident"
+      },
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "idNumber": "Id Number",
+      "facility": "Facility"
+    }
+  }
+}
