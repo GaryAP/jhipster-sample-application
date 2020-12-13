@@ -1,0 +1,21 @@
+
+entity Resident {
+	firstName String required,
+    lastName String required,
+    idNumber Integer required
+
+}
+
+entity Room {
+	roomNumber Integer required minlength(3)
+	
+}
+
+entity Facility {
+	facilirtyName String required
+}
+
+relationship ManyToOne{
+  Facility{facilirtyName} to Room
+  Facility{facilirtyName} to Resident
+}
