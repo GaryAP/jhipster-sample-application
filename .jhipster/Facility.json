@@ -1,0 +1,37 @@
+{
+  "name": "Facility",
+  "fields": [
+    {
+      "fieldName": "facilirtyName",
+      "fieldType": "String",
+      "fieldValidateRules": [
+        "required"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "room",
+      "otherEntityRelationshipName": "facility",
+      "relationshipName": "room"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "resident",
+      "otherEntityRelationshipName": "facility",
+      "relationshipName": "resident"
+    }
+  ],
+  "changelogDate": "20201213205709",
+  "entityTableName": "facility",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}
