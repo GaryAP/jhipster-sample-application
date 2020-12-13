@@ -3,7 +3,7 @@ package com.mycompany.myapp.service;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
 
-import com.mycompany.myapp.JhipsterSampleApplicationApp;
+import com.mycompany.myapp.JhipsterApp;
 import com.mycompany.myapp.config.Constants;
 import com.mycompany.myapp.domain.User;
 import com.mycompany.myapp.repository.UserRepository;
@@ -29,7 +29,7 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * Integration tests for {@link UserService}.
  */
-@SpringBootTest(classes = JhipsterSampleApplicationApp.class)
+@SpringBootTest(classes = JhipsterApp.class)
 @Transactional
 public class UserServiceIT {
     private static final String DEFAULT_LOGIN = "johndoe";

@@ -1,0 +1,25 @@
+{
+  "jhipsterApp": {
+    "resident": {
+      "home": {
+        "title": "Residents",
+        "createLabel": "Créer un nouveau Resident",
+        "createOrEditLabel": "Créer ou éditer un Resident",
+        "notFound": "Aucun Resident trouvé"
+      },
+      "created": "Un nouveau Resident a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Resident avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Resident avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Resident {{ id }} ?"
+      },
+      "detail": {
+        "title": "Resident"
+      },
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "idNumber": "Id Number",
+      "facility": "Facility"
+    }
+  }
+}

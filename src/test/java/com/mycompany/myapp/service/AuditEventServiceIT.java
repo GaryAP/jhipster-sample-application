@@ -2,7 +2,7 @@ package com.mycompany.myapp.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import com.mycompany.myapp.JhipsterSampleApplicationApp;
+import com.mycompany.myapp.JhipsterApp;
 import com.mycompany.myapp.domain.PersistentAuditEvent;
 import com.mycompany.myapp.repository.PersistenceAuditEventRepository;
 import io.github.jhipster.config.JHipsterProperties;
@@ -17,7 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * Integration tests for {@link AuditEventService}.
  */
-@SpringBootTest(classes = JhipsterSampleApplicationApp.class)
+@SpringBootTest(classes = JhipsterApp.class)
 @Transactional
 public class AuditEventServiceIT {
     @Autowired
