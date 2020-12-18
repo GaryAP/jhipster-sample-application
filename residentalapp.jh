@@ -19,6 +19,4 @@ relationship ManyToOne{
   Facility to Room
   Facility to Resident
 }
-relationship OneToOne{
-	Room to Resident
-}
+
